@@ -2,6 +2,6 @@
 
 set -e -o pipefail
 
-for __install_appname xpra xpra-gui xpra-launcher xpra-shadow; do
+for __install_appname in xpra xpra-gui xpra-launcher xpra-shadow; do
     (. "${X11APPJAIL_WORKDIR}/appjail.d/uninstall.subr") || exit $?
 done
