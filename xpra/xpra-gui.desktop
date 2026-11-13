@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Xpra (AppJail:%%PROFILE%%)
+Comment=Xpra GUI
+Exec=%%EXEC%%
+Icon=%%ICON%%
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Network;RemoteAccess;
+Keywords=screen;forwarding;client;server

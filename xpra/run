@@ -1,0 +1,6 @@
+#!/bin/sh
+
+__run_program="xpra"
+__run_allow_entrypoint=true
+
+. "${X11APPJAIL_WORKDIR}/appjail.d/run.subr"

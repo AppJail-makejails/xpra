@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Xpra Launcher (AppJail:%%PROFILE%%)
+Comment=Connect to an Xpra session
+TryExec=x11appjail
+Exec=env X11APPJAIL_ENTRYPOINT=xpra_launcher %%EXEC%% %f
+Icon=%%ICON%%
+Terminal=false
+NoDisplay=true
+Type=Application
+StartupNotify=false
+Categories=Network;RemoteAccess;
+MimeType=application/x-xpraconfig;
+Keywords=screen;forwarding;client;server

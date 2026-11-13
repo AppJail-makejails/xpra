@@ -1,0 +1,9 @@
+ARG from=ghcr.io/appjail-makejails/xpra
+ARG tag=latest
+
+OPTION x11
+
+INCLUDE appjail.d/makejail.d/options.makejail
+INCLUDE appjail.d/makejail.d/fonts.makejail
+INCLUDE appjail.d/makejail.d/create-user.makejail
+INCLUDE appjail.d/makejail.d/groups.makejail
